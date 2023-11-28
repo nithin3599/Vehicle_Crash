@@ -1,0 +1,150 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Motor Vehicle Collisions</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <style type="text/css">
+        .page-section {
+            padding: 3rem 0;
+        }
+
+        .row {
+            gap: 10px;
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(-1 * var(--bs-gutter-y));
+            margin-right: calc(-0.5 * var(--bs-gutter-x));
+            margin-left: calc(-0.5 * var(--bs-gutter-x));
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .img-fluid {
+            width: 100%; /* Make the image take up 100% of the parent element (flex item) */
+            height: auto; /* Set height to auto to maintain aspect ratio */
+            max-height: 300px; /* Maximum height of the image */
+            object-fit: cover; /* Cover the container without stretching the image */
+        }
+    </style>
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">Motor Vehicle Collisions</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" asp-action="LoadDataFromApi">Load Data</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="viewdata">View Data</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="add">Add Data</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="graph">View Insights</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-section bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-4">About Us</h2>
+        </div>
+    </section>
+
+    <!-- About Us-->
+    <div id="portfolio" class="page-section bg-dark text-white">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-4">
+                    <a class="portfolio-box" href="~/assets/img/portfolio/Sravani.jpg" title="Project Name">
+                        <img class="img-fluid" src="~/assets/img/portfolio/Sravani.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Sravani</div>
+                            <div class="project-name">A graduate student actively pursuing a Master's degree in Business Analytics and Information Systems. With three years of practical experience at TCS, I have demonstrated expertise in designing and implementing robust applications utilizing Java, Spring, Hibernate, and JavaScript frameworks.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="~/assets/img/portfolio/NithinReddy.jpg" title="Project Name">
+                        <img class="img-fluid" src="~/assets/img/portfolio/NithinReddy.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">NithinReddy</div>
+                            <div class="project-name">Hey, I am Nithin Reddy Miduganti post graduate student in business analytics and information systems, who is aspiring to work in the fields of analytics and web development, and also seeking career alignment with my bachelor's degree and prior work experience as business analyst and product manager before masters. </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="~/assets/img/portfolio/BhanuNithin.jpg" title="Project Name">
+                        <img class="img-fluid" src="~/assets/img/portfolio/BhanuNithin.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">BhanuNithin</div>
+                            <div class="project-name">I am Bhanu Nithin Yadav Manne. I've worked as a Java developer at Capgemini Technology Services for 15 months, and that experience has really helped me improve my problem-solving and software development abilities. To further advance my competence in data-driven solutions, I'm presently pursuing a master's degree in Business Analytics and Information Systems at the USF</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="~/assets/img/portfolio/Ankit.jpg" title="Project Name">
+                        <img class="img-fluid" src="~/assets/img/portfolio/Ankit.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Ankit</div>
+                            <div class="project-name">I am Ankit, currently pursuing a Master's degree in Business Analytics and Information Systems at the University of South Florida. I am a dedicated and adaptable professional with a strong background in Data engineering technologies, including Python, Pyspark, and SQL. Having garnered three years of hands-on experience at Wipro.</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="page-section bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-4">Data Model</h2>
+        </div>
+    </section>
+    <!-- About Us-->
+    <div id="portfolio" class="page-section bg-dark text-white">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-4">
+                    <a class="portfolio-box" href="~/assets/img/portfolio/datamodel.png" title="Project Name">
+                        <img class="img-fluid" src="~/assets/img/portfolio/datamodel.png" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Data Model</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Motor Vehicle Collisions</div></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

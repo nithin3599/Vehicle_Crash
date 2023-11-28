@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGS8W7ezD5E+X3zNG72/NfAAAAAACAAAAAAAQZgAAAAEAACAAAACsLM8nOnk+GA2i1hkTzRvmBefwPMCZoKii+TU2hxwx5gAAAAAOgAAAAAIAACAAAADW4eeVAtNtszHH1AbIKtQFUM5NE1v5FAphisDbQPA5XoAAAAAuRnFV5foXm1VEw0u+4e8ypGtvnHMUbKJSTXaHUfp/7IYF9qTsuUiFoWr2wkDvpJuAeEUg9VDnnKKMQca8fxsrvgxQJUWjgHo6b/6JJgSU3tCLWK1S/2+7mFV8N1Mio0eD4uuhkM3EyZQkzwfhYVStZ8QKHeeriI+sG++G/UEOiUAAAACsXugOnWyJVgvxat6PvGQH6DCTUvtn/Bl8aLeKmdXZFjdB5m05IudRBshTpjfLdlFjWIwK1lDfcDMDxi4ilfj0</EncryptedPassword>
+    <History>True|2023-11-28T06:09:37.7631519Z;True|2023-11-28T01:05:48.6231426-05:00;True|2023-11-28T00:36:03.8628727-05:00;True|2023-11-28T00:18:57.8288544-05:00;True|2023-11-28T00:15:43.0389657-05:00;False|2023-11-28T00:04:53.0135551-05:00;False|2023-11-28T00:03:19.5341152-05:00;False|2023-11-28T00:01:47.4857425-05:00;False|2023-11-27T23:41:28.6869581-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnectionStrings">
+      <Value>Data Source=tcp:vehiclecrash.database.windows.net,1433%3bInitial Catalog=Vehicle_Crash%3bUser Id=Group6%40vehiclecrash%3bPassword=Qzpm%40369</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
